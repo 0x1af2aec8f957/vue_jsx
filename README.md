@@ -2,6 +2,8 @@
 
 > A Vue.js project
 
+#### 在VUE项目中使用JSX来书写你的单文件组件，而无需繁琐的使用createElement函数来构建你的组件，更多的语法实例在这里：[babel-plugin-transform-vue-jsx](https://github.com/vuejs/babel-plugin-transform-vue-jsx#usage)
+
 ## Build Setup
 
 ``` bash
