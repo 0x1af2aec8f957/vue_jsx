@@ -1,4 +1,4 @@
-# my-project
+# vue-jsx<==vue-router,完整的demo示例
 
 > A Vue.js project
 
@@ -26,5 +26,26 @@ npm run e2e
 # run all tests
 npm test
 ```
-
+### 需要注意的文件
+>.babelrc
+`
+{
+"presets": [
+["env", {
+"modules": false,
+"targets": {
+"browsers": ["> 1%", "last 2 versions", "not ie <= 8"]
+}
+}],
+"stage-2"
+],
+"plugins": ["transform-runtime","transform-vue-jsx"],
+"env": {
+"test": {
+"presets": ["env", "stage-2"],
+"plugins": ["istanbul","transform-vue-jsx"]
+}
+}
+}
+`
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
