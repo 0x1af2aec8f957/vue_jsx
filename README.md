@@ -7,7 +7,7 @@
 ## Ready
 
 ```bash
-1. git clone https://github.com/noteScript/vue_jsx
+1. git clone https://github.com/noteScript/vue_jsx.git
 2. cd vue_jsx
 3. npm install
 4. npm run dev
