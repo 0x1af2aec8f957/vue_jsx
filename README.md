@@ -7,10 +7,10 @@
 ## Ready
 
 ```bash
-$ git clone https://github.com/noteScript/vue_jsx
-$ cd vue_jsx
-$ npm install
-$ npm run dev
+1. git clone https://github.com/noteScript/vue_jsx
+2. cd vue_jsx
+3. npm install
+4. npm run dev
 ```
 
 ## Build Setup
@@ -59,7 +59,5 @@ npm test
 }
 }
 `
-
-
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
